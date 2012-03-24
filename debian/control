@@ -1,0 +1,21 @@
+Source: inkscape-unicorn
+Section: graphics
+Priority: extra
+Maintainer: Paul Schulz <paul@mawsonlakes.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/martymcguire/inkscape-unicorn
+Vcs-Git: https://github.com/martymcguire/inkscape-unicorn.git
+Vcs-Browser: https://github.com/martymcguire/inkscape-unicorn
+
+Package: inkscape-unicorn
+Architecture: all
+Depends: ${misc:Depends}, inkscape
+Description: Inkscape extension for outputting G-Code for the MakerBot Unicorn Pen Plotter
+ This is an Inkscape extension that allows you to save your Inkscape
+ drawings as G-Code files suitable for plotting with the MakerBot
+ Unicorn Pen Plotter.
+ . 
+ Author: Marty McGuire
+ .
+ Website: http://github.com/martymcguire/inkscape-unicorn
